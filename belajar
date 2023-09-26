@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rekomendasi Drakor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>h1 {text-align: center;} 
+    img {float:left;} table,th,td {border: 1px solid blue; border-radius: 10px ;</style> 
+</head>
+<body>
+<body style="background-color:aquamarine;"></body> 
+<h1 style="background-color: aqua;font-family:Times New Roman;text-align: center;">Drakor Terbaru 2023 </h1>
+<p> <img src="https://cdn.popmama.com/content-images/post/20230502/drakor-mei-2023-e0e171a8928c5fe5f4a914844d134dee_800x420.jpg" widht="300" height="100" style="margin-right:10px ;"> Pada tahun 2023 ini, ada banyak drama Korea terbaru yang menarik untuk disaksikan. Meski beberapa judul belum tayang, sudah ada trailer drakor terbaru yang bisa kalian simak.
+
+    Trailer drakor terbaru 2023 ini kurang lebih dapat menggambarkan ide cerita yang diangkat. Genrenya pun cukup beragam, mulai dari romansa, keluarga, hingga misteri.
+    
+    Nah, jika kalian sedang mencari trailer drakor terbaru 2023, silakan simak ulasan selengkapnya di bawah ini.</p>
+    
+<!--Block & Inline-->
+<address> Website nonton ; <a href="https://dramaqu.cam/">Dramaqu</a></address>
+<br>
+<br>
+
+<!--list-->
+<h2>KING THE LAND</h2>
+<dl>
+    <dt><b>Jam Tayang</b></dt>
+    <dd>Sabtu dan Minggu</dd>
+    <dd>Pukul 20.00 WIB</dd>
+</dl>
+<H2>SEE YOU IN MY 19TH LIFE</H2>
+<ol>
+    <LI>Rating 8.0</LI>
+    <li>jam tayang rabu dan kamis </li>
+</ol>
+<h2>LOVE TO HATE YOU</h2>
+<UL>
+    <li> Rating 7.5 </li>
+    <li> Jam tayang Senin dan Selasa</li>
+</UL>
+<br>
+
+<!--table-->
+<h2>Detail Film</h2>
+<table>
+    <tr>
+        <th>Judul</th>
+        <th>Sinopsis</th>
+    </tr>
+    <tr>
+        <td>King The Land </td>
+        <td>KING THE LAND baru tayang beberapa episode di Netflix. Drama ini berkisah tentang seorang pria dari keluarga konglomerat yang memiliki perusahaan besar bernama King Group.
+            Terdapat tokoh Gu Won yang dikenal sebagai seorang pemuda yang cerdas dan berwibawa, tapi kurang pandai dalam hal cinta dan tidak menyukai senyuman palsu dari orang-orang di sekitarnya. Pada suatu hari, dia terjerat dalam konflik keluarga yang melibatkan pertarungan untuk mendapatkan warisan King Group. Berikut ini Trailer drakor terbaru yang bisa kalian simak.</td>
+    </tr>
+    <tr>
+        <td>See You in My 19th Life</td>
+        <td>SEE YOU IN MY 19TH LIFE juga menjadi salah satu rekomendasi drakor yang sayang untuk dilewatkan. Drama ini bercerita tentang Ban Ji-eum (Shin Hye-sun) yang memiliki kemampuan untuk mengingat semua kehidupannya di masa lalu.
+            Meskipun telah mengalami reinkarnasi selama hampir 1.000 tahun, Ji-eum tetap menjalani dengan baik. Setelah kehidupan sebelumnya berakhir dalam kecelakaan tragis, Ji-eum memutuskan untuk menghubungi orang-orang dari masa lalunya yang juga ada dalam kehidupannya saat ini. Salah satu orang yang dia temui adalah Moon Seo-ha (Ahn Bo-hyun), seorang pria yang pernah dia temui dalam kehidupan ke-18. Berikut ini trailer drakor terbaru SEE YOU IN MY 19TH LIFE yang bisa kalian simak.</td>
+    </tr>
+    <tr>
+        <td>Love To Hate You</td>
+        <td>Mengusung tema hukum, drama ini berkisah tentang seorang pengacara perempuan di Firma Hukum Gil Mu yang bernama Yeo Mi Ran. Tugasnya adalah menangani berbagai masalah yang dihadapi oleh tokoh-tokoh penting dalam industri hiburan.
+Yeo Mi Ran merupakan sosok yang tidak tertarik dengan hubungan romantis dan sangat membenci sistem patriarki dalam berbagai aspek kehidupan. Di sisi lain, ada Nam Kang Ho, seorang aktor terkenal yang tampan, cerdas, dan baik hati juga sulit percaya kepada perempuan. Perkembangan hubungan antara dua orang yang sama-sama menolak hubungan romantis antara pria dan wanita ini diwarnai dengan kejutan-kejutan menarik. Trailer drakor terbaru LOVE HATE YOU bisa kalian simak di bawah ini.</td>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
