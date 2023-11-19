@@ -1,0 +1,527 @@
+:root{
+    --primary:#f0a3e8;
+    --bg:#fcc5f6;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: #010101;
+}
+
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color:rgb(252, 250, 252, 0.8);
+    border-bottom: 1px solid var(--primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.navbar .navbar-logo{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #f687d3;
+    font-family: 'Courgette';
+}
+
+.navbar .navbar-nav a {
+    color: #010101;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin:0 1rem;
+}
+
+.navbar .navbar-nav a:hover{
+    color: var(--primary);
+}
+
+.navbar .navbar-ekstra a{
+    color:#010101;
+    margin: 0 0.5rem;
+}
+
+.navbar .navbar-ekstra a:hover{
+    color: var(--primary);
+}
+
+#Menu{
+    display: none;
+}
+
+.navbar .navbar-nav .dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.navbar .navbar-nav .dropdown-content{
+    display: none;
+    position: absolute;
+}
+.navbar .navbar-nav .dropdown-content a{
+    display: block;
+    font-size: 1.2rem;
+}
+.navbar .navbar-nav .dropdown:hover .dropdown-content{
+    display: block;
+    background-color: #fcfafc;
+}
+
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .content {
+    padding: 1.4rem 7%;
+    max-width: 60rem;
+}
+
+.hero .content h1{
+    font-family: 'sriracha';
+    font-size: 2rem;
+}
+
+.hero .content p {
+    font-size: 1.2rem;
+}
+
+.hero .content a:hover{
+    color: #f687d3;
+}
+
+.hero .content .cta {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.2rem ;
+    color: #010101;
+    background-color:var(--primary);
+}
+
+/* About Section */
+.ABOUT {
+    padding: 9rem 7% 1.4rem;
+}
+
+.ABOUT h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Niconne';
+}
+
+
+.ABOUT img{
+    max-width: 100%;
+    min-width: 100%;
+    padding: 4rem 0.2rem;
+}
+
+.ABOUT h3{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Sriracha';
+}
+
+.ABOUT p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+#more {
+    display: none;
+}
+
+
+
+
+
+/* GALLERY Section */
+.GALLERY {
+    padding: 9rem 7% 1.4rem;
+}
+
+.GALLERY h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Niconne';
+}
+
+.GALLERY .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.GALLERY .row .gallery-product{
+    text-align: center;
+    padding-bottom: 4rem;
+
+}
+
+.GALLERY .row .gallery-product img{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin : 1rem 1rem;
+}
+
+.GALLERY .row .gallery-product-title{
+    margin: 1rem auto 0.5rem;
+}
+
+.GALLERY h4{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'sriracha';
+}
+
+
+
+/* Contact Section*/
+.CONTACT {
+    padding: 9rem 7% 1.4rem;
+}
+
+.CONTACT h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Niconne';
+}
+
+
+.CONTACT .row{
+    display: flex;
+    margin-top: 2rem;
+    background-color: #f687d3;
+    flex-wrap: wrap;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    box-sizing: content-box;
+}
+
+
+.CONTACT .row .map {
+    flex: 1 1 50rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.CONTACT .row form{
+    flex: 1 1 40rem;
+    padding: 1 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.CONTACT .row form .input-group{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: #fcc5f6;
+    border: 1px solid #fcfafc;
+    padding-left: 2rem;
+}
+
+
+.CONTACT .row form .input-group input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1,5rem;
+    background: none;
+}
+
+
+.CONTACT .row form .button {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #010101;
+    background-color: #fcc5f6;
+}
+
+
+.CONTACT .row form .button:hover{
+    background-color:#fcfafc;
+
+}
+
+
+.CONTACT .row form .sosmed a{
+    text-align: center;
+    color: #010101;
+    padding: 1rem 1rem;
+}
+
+
+.CONTACT .row form .sosmed a:hover{
+    color: #f687d3;
+}
+
+
+
+/* Registration Section */
+.REGISTRATION {
+    padding: 9rem 7% 1.4rem;
+}
+
+.REGISTRATION .signup-box {
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(246, 136, 211);
+    border-radius: 3px;
+  }
+  
+  .REGISTRATION  .login-box {
+    width: 360px;
+    height: 310px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(246, 136, 211);
+  }
+
+  .REGISTRATION  .login-box h1{
+    font-family: 'sriracha';
+    font-size: 2rem;
+    padding-top: 15px;
+    text-align: center;
+  }
+  
+  .REGISTRATION .signup-box h1 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 2rem;
+    font-family: 'sriracha';
+
+  }
+  
+  .REGISTRATION h2{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Niconne';
+}
+
+  .REGISTRATION .signup-box h4 {
+    text-align: center;
+  }
+  
+  .REGISTRATION form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  .REGISTRATION form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-family: 'poppins';
+
+  }
+  
+  .REGISTRATION  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  .REGISTRATION .button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+
+ .REGISTRATION p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1rem;
+  }
+  .REGISTRATION .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .REGISTRATION .para-2 a {
+    color: rgb(81, 18, 67);
+  }
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    background-color: #f687d3;
+    text-align: center;
+    padding: 1rem 0;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    font-size: 1.2rem;
+}
+
+footer .links{
+    margin-bottom: 1.4rem;
+}
+
+footer .links a{
+    padding: 1rem 1rem;
+    color: #010101;
+}
+
+footer .links a:hover{
+    color: #fcc5f6;
+}
+
+
+footer .credit{
+    margin-bottom: 1.4rem;
+}
+
+footer .credit a{
+    padding: 1rem 1rem;
+    color: #010101;
+}
+
+footer .addres{
+    margin-bottom: 1.4rem;
+}
+
+footer .addres a{
+    padding: 1rem 1rem;
+    color: #010101;
+}
+
+footer .socials{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+footer .socials a{
+    padding: 1rem 1rem;
+    color: #010101;
+}
+
+footer .socials a:hover{
+    color: #fcc5f6;
+}
+
+footer .timedate{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+footer .timedate button{
+    background-color: #f0a3e8;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1366px) {
+    html{
+        font-size: 75%;
+    }
+    .hero .content {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+
+    #Menu{
+        display: inline-block;
+    }
+
+    .navbar .navbar-nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #f0a3e8;
+        width: 30rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a{
+        color: #fcfafc;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a::after {
+        transform-origin: 0 0;
+    }
+
+    .navbar .navbar-nav a:hover::after {
+        transform: scaleX(0.2);
+    }
+
+    .hero .content {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 450px) {
+    html{
+        font-size: 20%;
+    }
+    .hero .content {
+        flex-wrap: wrap;
+    }
+}
